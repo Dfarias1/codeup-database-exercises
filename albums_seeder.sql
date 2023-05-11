@@ -2,7 +2,7 @@ USE codeup_test_db;
 
 -- Delete all rows before seeding new data
 TRUNCATE albums;
-
+my
 INSERT INTO albums (artist,name, release_date, genre, sales)
 VALUES
     ('Michael Jackson', 'Thriller', 1982,   'Pop, Rock, R&B',   47.3),
